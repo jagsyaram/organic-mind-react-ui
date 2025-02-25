@@ -5,5 +5,5 @@ import tailwindcss from "@tailwindcss/vite";
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react(), tailwindcss()],
-  base: "https://github.com/jagsyaram/organic-mind-react-ui", // Replace 'your-repo-name' with the name of your GitHub repository
+  // base: "https://github.com/jagsyaram/organic-mind-react-ui", // Replace 'your-repo-name' with the name of your GitHub repository
 });
