@@ -1,0 +1,46 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"/>
+  <title>React Component</title>
+</head>
+<body class="bg-gray-100 flex items-center justify-center min-h-screen">
+  <div id="root"></div>
+  <script type="text/babel">
+    const App = () => {
+      return (
+        <div className="bg-white rounded-lg shadow-lg p-6 max-w-md w-full">
+          <div className="bg-black rounded-t-lg p-6 flex items-center justify-center">
+            <div className="text-white text-left">
+              <h2 className="text-xl font-bold">Organic Mind</h2>
+            </div>
+            <div className="ml-auto">
+                <img src="assets/logo-organic-mind.jpg" alt="banner-logo" className="w-30 h-30" />
+            </div>
+          </div>
+          <div className="p-6 text-center">
+            <h2 className="text-2xl font-bold mb-4">Productive Mind</h2>
+            <p className="text-gray-700 mb-6">
+              With only the features you need, Organic Mind is customized for individuals seeking a stress-free way to stay focused on their goals, projects, and tasks.
+            </p>
+            <button className="bg-yellow-400 text-white font-bold py-2 px-4 rounded-full mb-4">
+              Get Started
+            </button>
+            <p className="text-gray-600">
+              Already have an account? <a href="#" className="text-yellow-500">Sign in here</a>
+            </p>
+          </div>
+        </div>
+      );
+    };
+
+    ReactDOM.render(<App />, document.getElementById('root'));
+  </script>
+  <script src="https://unpkg.com/react@17/umd/react.development.js"></script>
+  <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
+  <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+</body>
+</html>
