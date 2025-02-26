@@ -40,3 +40,13 @@
 .read-the-docs {
   color: #888;
 }
+
+.full-width {
+  width: 100%;
+}
+.action-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+  margin-top: 1em;
+}
