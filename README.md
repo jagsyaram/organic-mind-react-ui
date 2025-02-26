@@ -1,8 +1,5 @@
-# React + Vite
+# A sample application in React with the use of different AI tools.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+- Use of Grok, Bolt, Blackbox.ai
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- A simple CRUD on employee entity (client side only. No backend integration)
